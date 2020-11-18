@@ -1,0 +1,82 @@
+.main-container {
+  text-align: center;
+  color: white;
+}
+
+.main h1 {
+  background-color: #589442;
+  padding: 18px 20px 15px 20px;
+  margin-bottom: 30px;
+  max-width: 400px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px 4px 0px 0px;
+  font-size: 1.5rem;
+}
+
+.input-e {
+  background-image: url(../../img/envelope.png);
+
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 300px;
+  width: 350px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 10px 0;
+  padding: 10px;
+}
+.input-pw {
+  background-image: url(../../img/lock.png);
+
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 300px;
+  width: 350px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 10px 0;
+  padding: 10px;
+}
+#login-center {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary {
+  background-color: #589442 !important;
+  border-color: transparent !important;
+  margin-bottom: 24px;
+  width: 350px;
+}
+.btn-primary:hover {
+  filter: brightness(115%);
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem white !important;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: none transparent !important;
+}
+
+.login-button {
+  width: 350px !important;
+}
+
+#input-container {
+  position: relative;
+}
+
+#input-container > img {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+#input-container > input {
+  padding-right: 60px;
+}

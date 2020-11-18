@@ -1,0 +1,98 @@
+.breadcrumb {
+  margin-top: 16px;
+  height: 50px;
+}
+.admin-card-profile {
+  width: 100% !important;
+  border-radius: 4px !important;
+}
+.admin-card-edit {
+  width: 100% !important;
+  margin-top: 20px;
+  border-radius: 4px !important;
+}
+#card-title-h5 {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.text-container-edit {
+  margin: 0 30px;
+}
+.text-container-edit input {
+  width: 500px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.text-container-edit label {
+  margin: 10px;
+  margin-bottom: -5px;
+}
+.text-container {
+  margin: 20px 200px;
+}
+.text-container input {
+  width: 500px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.dropdown-menu > select:hover {
+  background-color: #f3969a;
+}
+
+.text-container label {
+  margin: 10px;
+  margin-bottom: -5px;
+}
+.admin-button-create {
+  width: 100px !important;
+  height: 40px;
+  border-radius: 25px !important;
+  margin-left: 30px;
+}
+.admin-button-create-edit {
+  width: 100px !important;
+  height: 40px;
+  border-radius: 25px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.content-wrapper {
+  margin: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .text-container {
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-container {
+    margin: 20px 5px;
+  }
+  .text-container input {
+    width: 300px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 5px;
+  }
+  .text-container-edit input {
+    width: 300px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 5px;
+  }
+  .text-container-edit {
+    margin: 0 10px;
+  }
+}

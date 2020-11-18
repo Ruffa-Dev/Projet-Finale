@@ -1,0 +1,8 @@
+.main-content {
+  background: #f4f4f4 url(./assets/img/pattern_2.svg) repeat;
+  background-repeat: repeat;
+  display: flex;
+}
+body {
+  font-family: "Poppins", Helvetica, sans-serif !important;
+}

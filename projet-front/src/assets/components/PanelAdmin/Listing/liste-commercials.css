@@ -1,0 +1,25 @@
+.btn:not(:disabled):not(.disabled) {
+  width: 10px;
+  border-radius: 4px;
+}
+.switch-group {
+  width: 160% !important;
+}
+.text-container-modal {
+  margin: auto;
+}
+.text-container-modal input {
+  margin-bottom: 20px;
+}
+.button-modal {
+  width: 100% !important;
+}
+.close {
+  color: white !important;
+}
+.modal-header {
+  background-color: #589442;
+}
+.modal-title.h4 {
+  color: white;
+}

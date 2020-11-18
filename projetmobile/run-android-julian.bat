@@ -1,0 +1,1 @@
+start /w android-build.bat && start /w android-install.bat && start /w npm start
