@@ -68,9 +68,9 @@ function Admins() {
   };
 
   return (
-    <div class="content-wrapper center">
-      <div class="container-fluid">
-        <div class="breadcrumb">
+    <div className="content-wrapper center">
+      <div className="container-fluid">
+        <div className="breadcrumb">
           <p>Dashboard / Admin</p>
         </div>
         {/* Creating an admin account */}

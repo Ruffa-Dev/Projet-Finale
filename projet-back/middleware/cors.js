@@ -7,7 +7,7 @@ const cors = {
   handle: (req, res, next) => {
     res.header(
       "Access-Control-Allow-Origin",
-      process.env.ORIGIN || "http://localhost:3000" || "http://localhost:8081"
+      process.env.ORIGIN || "http://localhost:3000"
     );
     res.header(
       "Access-Control-Allow-Headers",

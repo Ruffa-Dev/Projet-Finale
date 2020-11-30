@@ -35,9 +35,9 @@ function Commercials() {
   };
 
   return (
-    <div class="content-wrapper center vh">
-      <div class="container-fluid">
-        <div class="breadcrumb">
+    <div className="content-wrapper center vh">
+      <div className="container-fluid">
+        <div className="breadcrumb">
           <p>Dashboard / Commercial</p>
         </div>
         <Card className="admin-card-profile" style={{ width: "18rem" }}>
